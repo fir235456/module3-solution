@@ -73,7 +73,7 @@ p{
 
 .pg1, .pg2, .pg3{
   background-color:#0F80FF;
-  margin:10px
+  margin:10px 10px 50px 10px
 }
 
 h3{
@@ -88,4 +88,9 @@ p a{
 	color:#FFFF66;
 	text-transform:uppercase;
 	font-family:'JetBrains Mono', monospace;
+}
+
+p a:hover, p a:focus{
+  text-decoration:none;
+  color:#FD6666;
 }
